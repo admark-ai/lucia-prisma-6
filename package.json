@@ -28,7 +28,6 @@
 		"typescript": "latest"
 	},
 	"engines": {
-		"node": "20.x",
-		"pnpm": "*"
+		"node": "22.x",
 	}
 }
