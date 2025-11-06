@@ -2,6 +2,7 @@ import { decodeHex, encodeBase32LowerCaseNoPadding, encodeHexLowerCase } from "@
 import { generateRandomString } from "@oslojs/crypto/random";
 import { constantTimeEqual } from "@oslojs/crypto/subtle";
 import { scrypt } from "./scrypt/index.js";
+import crypto from "crypto";
 
 import type { RandomReader } from "@oslojs/crypto/random";
 
